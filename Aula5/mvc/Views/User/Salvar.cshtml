@@ -1,0 +1,31 @@
+﻿@model dominio.Entities.User
+
+<h2>Formulário de Usuário</h2>
+
+<form class="form-horizontal" asp-action="Salvar" asp-controller="User" method="POST">
+
+    <input type="hidden", class="form-control", asp-for="Id" />
+    <div class="form-group">
+        <label class="col-md-1 control-label" for="nome">Nome</label>
+        <div class="col-md-2">
+            <input type="text" class="form-control" asp-for="Nome" />
+        </div>
+        <label class="col-md-1 control-label" for="nome">Email</label>
+        <div class="col-md-2">
+            <input type="text" class="form-control" asp-for="Email" />
+        </div>
+        <label class="col-md-1 control-label" for="nome">Departamento</label>
+        <div class="col-md-2">
+            <select class="form-control" asp-for="DepartamentoId"
+                asp-items='@(new SelectList(@ViewBag.Departamentos, "Id", "Nome"))'>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-2">
+            <button class="btn btn-success">Salvar</button>
+        </div>
+    </div>
+
+</form>

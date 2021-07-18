@@ -1,0 +1,26 @@
+﻿@model Aula4.Models.User
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-controller="User" asp-action="Cadastro" method="POST">
+    <p>Id</p>
+    <input asp-for"Id" />
+    <span asp-validation-for="Id"></span>
+    <p>Nome: </p>
+    <input asp-for"Nome" />
+    <span asp-validation-for="Nome"></span>
+    <p>Email</p>
+    <input asp-for"Email" />
+    <span asp-validation-for="Email"></span>
+    <p><button type="submit" class="btn btn-primary">Save</button></p>
+</form>
+
+@if(ViewBag.valid != null && ViewBag.valid.Equals("invalido")){
+<p>Inválido!!!!</p>
+}
+else if(Model != null){
+    <p>@Model.Nome</p>
+}

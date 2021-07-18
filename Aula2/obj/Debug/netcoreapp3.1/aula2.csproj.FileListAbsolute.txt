@@ -1,0 +1,13 @@
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/bin/Debug/netcoreapp3.1/aula2
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/bin/Debug/netcoreapp3.1/aula2.deps.json
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/bin/Debug/netcoreapp3.1/aula2.runtimeconfig.json
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/bin/Debug/netcoreapp3.1/aula2.runtimeconfig.dev.json
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/bin/Debug/netcoreapp3.1/aula2.dll
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/bin/Debug/netcoreapp3.1/aula2.pdb
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/obj/Debug/netcoreapp3.1/aula2.csprojAssemblyReference.cache
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/obj/Debug/netcoreapp3.1/aula2.AssemblyInfoInputs.cache
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/obj/Debug/netcoreapp3.1/aula2.AssemblyInfo.cs
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/obj/Debug/netcoreapp3.1/aula2.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/obj/Debug/netcoreapp3.1/aula2.dll
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/obj/Debug/netcoreapp3.1/aula2.pdb
+/mnt/c/Users/Israe/Documents/Code/.net Core/aula2/obj/Debug/netcoreapp3.1/aula2.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DJWeAZwpuWgdNwV+DmLnhciBJzF2v8PHbqpufrfA2XZyBrjnCCjiR8UkAVttFHq4ydljvVXbUvj2ZHJ3z5RawQ==",
+  "success": true,
+  "projectFilePath": "/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/classlib.csproj",
+  "expectedPackageFiles": [
+    "/home/israel/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/israel/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

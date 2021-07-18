@@ -1,0 +1,30 @@
+﻿@model IEnumerable<dominio.Entities.Departamento>
+
+<h2>Mostrar Departamentos</h2>
+
+<a href="/Departamento/Salvar" class="btn btn-success">Novo Departamento</a>
+
+<div class="row">
+    <div class="col-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                <tr>
+                    <td>@item.Nome </td>
+                    <td>
+                        <a href="/Departamento/Editar/@item.Id" class="btn btn-primary">Editar</a>
+                    </td>
+                    <td>
+                        <a href="/Departamento/Deletar/@item.Id" class="btn btn-danger">Deletar</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

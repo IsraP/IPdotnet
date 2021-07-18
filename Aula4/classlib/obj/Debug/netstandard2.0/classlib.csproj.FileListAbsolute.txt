@@ -1,0 +1,9 @@
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/bin/Debug/netstandard2.0/classlib.deps.json
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/bin/Debug/netstandard2.0/classlib.dll
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/bin/Debug/netstandard2.0/classlib.pdb
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/obj/Debug/netstandard2.0/classlib.csprojAssemblyReference.cache
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/obj/Debug/netstandard2.0/classlib.AssemblyInfoInputs.cache
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/obj/Debug/netstandard2.0/classlib.AssemblyInfo.cs
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/obj/Debug/netstandard2.0/classlib.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/obj/Debug/netstandard2.0/classlib.dll
+/mnt/c/Users/Israe/Documents/Code/.net Core/Aula4/classlib/obj/Debug/netstandard2.0/classlib.pdb
