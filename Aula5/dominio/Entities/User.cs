@@ -14,12 +14,13 @@ namespace dominio.Entities {
 
         public int DepartamentoId { get; set; }
 
-        public void Update(User u)
-        {
+        public void Update(User u){
             this.Nome = u.Nome;
             this.Email = u.Email;
             this.Departamento = u.Departamento;
             this.DepartamentoId = u.DepartamentoId;
         }
+
+        public bool isAdmin {get; set;}
     }
 }

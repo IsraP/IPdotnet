@@ -16,21 +16,39 @@
 /mnt/c/Users/Israe/Documents/Code/.net Core/aula5/data/bin/Debug/net5.0/data.runtimeconfig.json
 /mnt/c/Users/Israe/Documents/Code/.net Core/aula5/data/bin/Debug/net5.0/data.runtimeconfig.dev.json
 /mnt/c/Users/Israe/Documents/Code/.net Core/aula5/data/obj/Debug/net5.0/data.genruntimeconfig.cache
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\data.deps.json
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\data.runtimeconfig.json
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\data.runtimeconfig.dev.json
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\data.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\ref\data.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\data.pdb
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\dominio.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\bin\Debug\net5.0\dominio.pdb
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.csproj.AssemblyReference.cache
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.AssemblyInfoInputs.cache
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.AssemblyInfo.cs
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.csproj.CoreCompileInputs.cache
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.csproj.CopyComplete
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\ref\data.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.pdb
-C:\Users\Israe\Documents\Code\.net Core\Aula5\data\obj\Debug\net5.0\data.genruntimeconfig.cache
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/data.deps.json
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/data.runtimeconfig.json
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/data.runtimeconfig.dev.json
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/data.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/ref/data.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/data.pdb
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/dominio.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/bin/Debug/net5.0/dominio.pdb
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.csproj.AssemblyReference.cache
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.AssemblyInfoInputs.cache
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.AssemblyInfo.cs
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.csproj.CoreCompileInputs.cache
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.csproj.CopyComplete
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/ref/data.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.pdb
+C:/Users/Israe/Documents/Code/.net Core/Aula5/data/obj/Debug/net5.0/data.genruntimeconfig.cache
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/data.deps.json
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/data.runtimeconfig.json
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/data.runtimeconfig.dev.json
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/data.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/ref/data.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/data.pdb
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/dominio.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/data/bin/Debug/net5.0/dominio.pdb
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.csproj.AssemblyReference.cache
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.GeneratedMSBuildEditorConfig.editorconfig
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.AssemblyInfoInputs.cache
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.AssemblyInfo.cs
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.csproj.CoreCompileInputs.cache
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.csproj.CopyComplete
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/ref/data.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.pdb
+/home/israel/Documents/Code/IPdotnet/Aula5/data/obj/Debug/net5.0/data.genruntimeconfig.cache

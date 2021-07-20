@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5mYdomfF/PjKr3WAjyWRgXVf73DYK+JWx15hvH+BW4qvLePNsGo8B0gGfsh+71Uzaogr24YZ4mSvpls1c0sLuQ==",
+  "dgSpecHash": "S8SnqB0KhsrUQUQXvGP6NrS27z7dW4mlIbOwr7NLn4RwIDnUiBwExxWRU0d2IEezmgmKbr1N7DApRfVvw2C29A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\dominio\\dominio.csproj",
+  "projectFilePath": "/home/israel/Documents/Code/IPdotnet/Aula5/dominio/dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

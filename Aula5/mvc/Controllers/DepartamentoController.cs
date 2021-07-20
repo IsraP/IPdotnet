@@ -47,9 +47,9 @@ namespace mvc.Controllers {
         }
 
         public IActionResult Mostrar() {
-            var departamentos = _contexto.Departamento.ToList();
+            var departamentos = _contexto.Departamento.Where(d => d.Ativo).OrderBy(d => d.Nome);
 
-            return View(departamentos);
+            return departamentos.Any()? View(departamentos.ToList()) : View(new List<Departamento>()); 
         }
     }
 }

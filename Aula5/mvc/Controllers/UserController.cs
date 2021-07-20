@@ -54,6 +54,13 @@ namespace mvc.Controllers
             return View(users);
         }
 
+        public IActionResult MostrarADM()
+        {
+            var users = _contexto.User.Where(u => u.isAdmin);
+
+            return users.Any()? View(users.ToList()) : View(new List<User>()); 
+        }
+
         public IActionResult Editar(int id){
             var user = _contexto.User.First(u => u.Id == id);
 

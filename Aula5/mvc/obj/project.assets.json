@@ -8962,37 +8962,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Israe\\.nuget\\packages\\": {}
+    "/home/israel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\mvc\\mvc.csproj",
+      "projectUniqueName": "/home/israel/Documents/Code/IPdotnet/Aula5/mvc/mvc.csproj",
       "projectName": "mvc",
-      "projectPath": "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\mvc\\mvc.csproj",
-      "packagesPath": "C:\\Users\\Israe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\mvc\\obj\\",
+      "projectPath": "/home/israel/Documents/Code/IPdotnet/Aula5/mvc/mvc.csproj",
+      "packagesPath": "/home/israel/.nuget/packages/",
+      "outputPath": "/home/israel/Documents/Code/IPdotnet/Aula5/mvc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/israel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\data\\data.csproj": {
-              "projectPath": "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\data\\data.csproj"
+            "/home/israel/Documents/Code/IPdotnet/Aula5/data/data.csproj": {
+              "projectPath": "/home/israel/Documents/Code/IPdotnet/Aula5/data/data.csproj"
             },
-            "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\dominio\\dominio.csproj": {
-              "projectPath": "C:\\Users\\Israe\\Documents\\Code\\.net Core\\Aula5\\dominio\\dominio.csproj"
+            "/home/israel/Documents/Code/IPdotnet/Aula5/dominio/dominio.csproj": {
+              "projectPath": "/home/israel/Documents/Code/IPdotnet/Aula5/dominio/dominio.csproj"
             }
           }
         }
@@ -9030,7 +9028,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

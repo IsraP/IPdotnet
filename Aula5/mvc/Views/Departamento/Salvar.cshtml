@@ -4,11 +4,17 @@
 
 <form class="form-horizontal" asp-action="Salvar" asp-controller="Departamento" method="POST">
 
-    <input type="hidden", class="form-control", asp-for="Id" />
+    <input type="hidden" , class="form-control" , asp-for="Id" />
     <div class="form-group">
         <label class="col-md-1 control-label" for="nome">Nome</label>
         <div class="col-md-2">
             <input type="text" class="form-control" asp-for="Nome" />
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" asp-for="Ativo" id="checkAtivo">
+            <label class="form-check-label" for="checkAtivo">
+                Ativo?
+            </label>
         </div>
     </div>
 

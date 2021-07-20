@@ -10,15 +10,27 @@
 /mnt/c/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.dll
 /mnt/c/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/ref/dominio.dll
 /mnt/c/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.pdb
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\bin\Debug\net5.0\dominio.deps.json
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\bin\Debug\net5.0\dominio.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\bin\Debug\net5.0\ref\dominio.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\bin\Debug\net5.0\dominio.pdb
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\dominio.csproj.AssemblyReference.cache
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\dominio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\dominio.AssemblyInfoInputs.cache
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\dominio.AssemblyInfo.cs
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\dominio.csproj.CoreCompileInputs.cache
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\dominio.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\ref\dominio.dll
-C:\Users\Israe\Documents\Code\.net Core\Aula5\dominio\obj\Debug\net5.0\dominio.pdb
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/bin/Debug/net5.0/dominio.deps.json
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/bin/Debug/net5.0/dominio.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/bin/Debug/net5.0/ref/dominio.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/bin/Debug/net5.0/dominio.pdb
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.csproj.AssemblyReference.cache
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.AssemblyInfoInputs.cache
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.AssemblyInfo.cs
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.csproj.CoreCompileInputs.cache
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/ref/dominio.dll
+C:/Users/Israe/Documents/Code/.net Core/Aula5/dominio/obj/Debug/net5.0/dominio.pdb
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/bin/Debug/net5.0/dominio.deps.json
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/bin/Debug/net5.0/dominio.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/bin/Debug/net5.0/ref/dominio.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/bin/Debug/net5.0/dominio.pdb
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/dominio.csproj.AssemblyReference.cache
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/dominio.GeneratedMSBuildEditorConfig.editorconfig
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/dominio.AssemblyInfoInputs.cache
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/dominio.AssemblyInfo.cs
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/dominio.csproj.CoreCompileInputs.cache
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/dominio.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/ref/dominio.dll
+/home/israel/Documents/Code/IPdotnet/Aula5/dominio/obj/Debug/net5.0/dominio.pdb
