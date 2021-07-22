@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using IPdotnet.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IPdotnet.Controllers
 {
@@ -23,6 +24,7 @@ namespace IPdotnet.Controllers
             return View();
         }
 
+        [Authorize(Policy ="SomenteAdms")]
         public IActionResult Privacy()
         {
             return View();
