@@ -12,7 +12,6 @@ namespace IsraConstruct.domain.Products
 
         public void Store(CategoryDTO dto){
             var category = _categoryRepository.GetById(dto.Id);
-            DomainException.When(category == null, "Category invalid");
 
             if(category == null){
                 category = new Category(dto.Name);
