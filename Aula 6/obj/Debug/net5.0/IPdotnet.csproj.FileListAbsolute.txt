@@ -162,3 +162,5 @@
 /home/israel/Documents/Code/IPdotnet/Aula 6/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs
 /home/israel/Documents/Code/IPdotnet/Aula 6/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewImports.cshtml.g.cs
 /home/israel/Documents/Code/IPdotnet/Aula 6/obj/Debug/net5.0/Razor/Areas/Identity/Pages/Account/Login.cshtml.g.cs
+/home/israel/Documents/Code/IPdotnet/Aula 6/bin/Debug/net5.0/package-lock.json
+/home/israel/Documents/Code/IPdotnet/Aula 6/bin/Debug/net5.0/package.json
