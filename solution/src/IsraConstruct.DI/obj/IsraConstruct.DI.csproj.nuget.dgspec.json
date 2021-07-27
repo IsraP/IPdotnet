@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.DI/IsraConstruct.DI.csproj": {}
+  },
+  "projects": {
+    "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.DI/IsraConstruct.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.DI/IsraConstruct.DI.csproj",
+        "projectName": "IsraConstruct.DI",
+        "projectPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.DI/IsraConstruct.DI.csproj",
+        "packagesPath": "/home/israel/.nuget/packages/",
+        "outputPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.DI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/israel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.data/IsraConstruct.data.csproj": {
+                "projectPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.data/IsraConstruct.data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.data/IsraConstruct.data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.data/IsraConstruct.data.csproj",
+        "projectName": "IsraConstruct.data",
+        "projectPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.data/IsraConstruct.data.csproj",
+        "packagesPath": "/home/israel/.nuget/packages/",
+        "outputPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/israel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/IsraConstruct.domain.csproj": {
+                "projectPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/IsraConstruct.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/IsraConstruct.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/IsraConstruct.domain.csproj",
+        "projectName": "IsraConstruct.domain",
+        "projectPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/IsraConstruct.domain.csproj",
+        "packagesPath": "/home/israel/.nuget/packages/",
+        "outputPath": "/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/israel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

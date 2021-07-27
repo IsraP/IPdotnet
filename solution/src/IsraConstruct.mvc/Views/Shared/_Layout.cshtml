@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - IsraConstruct.mvc</title>
+    <title>@ViewData["Title"] - IsraConstruct</title>
     <link rel="stylesheet" href="~/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -24,6 +24,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="CreateOrEdit">Category</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -37,12 +40,13 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - IsraConstruct.mvc - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - IsraConstruct - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/js/jquery/dist/jquery.min.js"></script>
     <script src="~/js/jquery/dist/jquery.validate.min.js"></script>
     <script src="~/js/jquery/dist/jquery.validate.unobtrusive.js"></script>
+    <script src="~/js/jquery/dist/jquery.unobtrusive-ajax.min.js"></script>
     <script src="~/js/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

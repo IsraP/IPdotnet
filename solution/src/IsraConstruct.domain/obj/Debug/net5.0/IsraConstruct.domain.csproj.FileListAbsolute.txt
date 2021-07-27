@@ -1,0 +1,12 @@
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/bin/Debug/net5.0/IsraConstruct.domain.deps.json
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/bin/Debug/net5.0/IsraConstruct.domain.dll
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/bin/Debug/net5.0/ref/IsraConstruct.domain.dll
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/bin/Debug/net5.0/IsraConstruct.domain.pdb
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/IsraConstruct.domain.csproj.AssemblyReference.cache
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/IsraConstruct.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/IsraConstruct.domain.AssemblyInfoInputs.cache
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/IsraConstruct.domain.AssemblyInfo.cs
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/IsraConstruct.domain.csproj.CoreCompileInputs.cache
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/IsraConstruct.domain.dll
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/ref/IsraConstruct.domain.dll
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.domain/obj/Debug/net5.0/IsraConstruct.domain.pdb
