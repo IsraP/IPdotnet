@@ -12,18 +12,16 @@ namespace IsraConstruct.data
 
         public TEntity GetById(int id){
 
-            // var query =_context.Set<TEntity>().SingleOrDefault(e => e.Id == id);
-            // if(query.Any())
-            //     return query.First();
-            // return null;
+            var query =_context.Set<TEntity>().Where(e => e.Id == id);
+            if(query.Any())
+                return query.First();
+            return null;
             
-            return _context.Set<TEntity>().SingleOrDefault(e => e.Id == id);
+            // return _context.Set<TEntity>().SingleOrDefault(e => e.Id == id);
         }
 
         public void Save(TEntity entity){
             _context.Set<TEntity>().Add(entity);
-            
-            _context.SaveChanges();
         }
     }
 }

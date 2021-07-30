@@ -9,12 +9,12 @@ namespace IsraConstruct.DI
 {
     public class Bootstrap{
         public static void Configure(IServiceCollection services, string connection){
+            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
+            services.AddTransient(typeof(CategoryStorage));
+            services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork));
+
             services.AddDbContext<ApplicationDbContext>(options => 
                 options.UseSqlServer(connection));
-
-            services.AddSingleton(typeof(IRepository<>), typeof(Repository<>));
-            services.AddSingleton(typeof(CategoryStorage));
-            services.AddSingleton(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
     }
 }

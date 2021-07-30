@@ -86,3 +86,4 @@
 /home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.mvc/bin/Debug/net5.0/IsraConstruct.domain.pdb
 /home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.mvc/bin/Debug/net5.0/Humanizer.dll
 /home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.mvc/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/israel/Documents/Code/IPdotnet/solution/src/IsraConstruct.mvc/bin/Debug/net5.0/mono_crash.21acb2c11b.1.json

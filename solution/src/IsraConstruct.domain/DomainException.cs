@@ -8,7 +8,7 @@ namespace IsraConstruct.domain{
         }
 
         public static void When(bool valid, string error){
-            if(!valid){
+            if(valid){
                 throw new DomainException(error);
             }
         }

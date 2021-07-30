@@ -1,3 +1,5 @@
+using System;
+
 namespace IsraConstruct.domain.Products{
     public class Category : Entity{
 
@@ -10,6 +12,7 @@ namespace IsraConstruct.domain.Products{
             Name = name;
         }
 
+        public Category(){}
         public Category(string name)
         {
             ValidateAndSetName(name);

@@ -1,4 +1,4 @@
-using IsraConstruct.domain.DTOs;
+using System;
 
 namespace IsraConstruct.domain.Products
 {
@@ -10,15 +10,16 @@ namespace IsraConstruct.domain.Products
              _categoryRepository = categoryRepository;
         }
 
-        public void Store(CategoryDTO dto){
-            var category = _categoryRepository.GetById(dto.Id);
+        public void Store(int id, string name){
+            var category = _categoryRepository.GetById(id);
 
             if(category == null){
-                category = new Category(dto.Name);
+                category = new Category(name);
+                Console.WriteLine("nome: " + name);
                 _categoryRepository.Save(category);
             }
             else{
-                category.Update(dto.Name);
+                category.Update(name);
             }
         }
     }

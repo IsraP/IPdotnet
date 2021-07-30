@@ -1,5 +1,6 @@
 using IsraConstruct.domain.DTOs;
 using IsraConstruct.domain.Products;
+using IsraConstruct.mvc.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -25,8 +26,8 @@ namespace IsraConstruct.mvc.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOrEdit(CategoryDTO dto){
-            _categoryStorage.Store(dto);
+        public IActionResult CreateOrEdit(CategoryViewModel viewModel/*int id*/){
+            _categoryStorage.Store(viewModel.Id, viewModel.Name);
             return View();
         }
     }
