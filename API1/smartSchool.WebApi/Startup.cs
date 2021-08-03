@@ -31,7 +31,11 @@ namespace smartSchool.WebApi
             services.AddDbContext<DataContext>(
                 c => c.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddControllers();
+            services.AddScoped<IRepository, Repository>();
+
+            services.AddControllers().AddNewtonsoftJson(
+                opt => opt.SerializerSettings.ReferenceLoopHandling = 
+                Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "smartSchool.WebApi", Version = "v1" });

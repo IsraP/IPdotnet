@@ -17,6 +17,6 @@ namespace smartSchool.WebApi.Models{
         public string Name {get; set;}
         public string SecondName {get; set;}
         public string Phone {get; set;}
-        public IEnumerable<Discipline> Disciplines { get; set; }
+        public IEnumerable<StudentDiscipline> Disciplines { get; set; }
     }
 }

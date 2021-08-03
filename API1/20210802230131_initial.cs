@@ -67,22 +67,20 @@ namespace smartSchool.WebApi.Migrations
                 columns: table => new
                 {
                     IdStudent = table.Column<int>(type: "INTEGER", nullable: false),
-                    IdDiscipline = table.Column<int>(type: "INTEGER", nullable: false),
-                    StudentId = table.Column<int>(type: "INTEGER", nullable: true),
-                    DisciplineId = table.Column<int>(type: "INTEGER", nullable: true)
+                    IdDiscipline = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_StudentDisciplines", x => new { x.IdStudent, x.IdDiscipline });
                     table.ForeignKey(
                         name: "FK_StudentDisciplines_Disciplines_DisciplineId",
-                        column: x => x.DisciplineId,
+                        column: x => x.IdDiscipline,
                         principalTable: "Disciplines",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_StudentDisciplines_Students_StudentId",
-                        column: x => x.StudentId,
+                        column: x => x.IdStudent,
                         principalTable: "Students",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);

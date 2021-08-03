@@ -11,7 +11,7 @@ namespace Data
         public DbSet<StudentDiscipline> StudentDisciplines { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder){
-            builder.Entity<StudentDiscipline>().HasKey(SD => new {SD.IdStudent, SD.IdDiscipline});
+            builder.Entity<StudentDiscipline>().HasKey(SD => new {SD.StudentId, SD.DisciplineId});
 
             builder.Entity<Teacher>()
             .HasData(new List<Teacher> {
@@ -44,29 +44,29 @@ namespace Data
 
             builder.Entity<StudentDiscipline>()
                 .HasData(new List<StudentDiscipline>() {
-                    new StudentDiscipline() {IdStudent = 1, IdDiscipline = 2 },
-                    new StudentDiscipline() {IdStudent = 1, IdDiscipline = 4 },
-                    new StudentDiscipline() {IdStudent = 1, IdDiscipline = 5 },
-                    new StudentDiscipline() {IdStudent = 2, IdDiscipline = 1 },
-                    new StudentDiscipline() {IdStudent = 2, IdDiscipline = 2 },
-                    new StudentDiscipline() {IdStudent = 2, IdDiscipline = 5 },
-                    new StudentDiscipline() {IdStudent = 3, IdDiscipline = 1 },
-                    new StudentDiscipline() {IdStudent = 3, IdDiscipline = 2 },
-                    new StudentDiscipline() {IdStudent = 3, IdDiscipline = 3 },
-                    new StudentDiscipline() {IdStudent = 4, IdDiscipline = 1 },
-                    new StudentDiscipline() {IdStudent = 4, IdDiscipline = 4 },
-                    new StudentDiscipline() {IdStudent = 4, IdDiscipline = 5 },
-                    new StudentDiscipline() {IdStudent = 5, IdDiscipline = 4 },
-                    new StudentDiscipline() {IdStudent = 5, IdDiscipline = 5 },
-                    new StudentDiscipline() {IdStudent = 6, IdDiscipline = 1 },
-                    new StudentDiscipline() {IdStudent = 6, IdDiscipline = 2 },
-                    new StudentDiscipline() {IdStudent = 6, IdDiscipline = 3 },
-                    new StudentDiscipline() {IdStudent = 6, IdDiscipline = 4 },
-                    new StudentDiscipline() {IdStudent = 7, IdDiscipline = 1 },
-                    new StudentDiscipline() {IdStudent = 7, IdDiscipline = 2 },
-                    new StudentDiscipline() {IdStudent = 7, IdDiscipline = 3 },
-                    new StudentDiscipline() {IdStudent = 7, IdDiscipline = 4 },
-                    new StudentDiscipline() {IdStudent = 7, IdDiscipline = 5 }
+                    new StudentDiscipline() {StudentId = 1, DisciplineId = 2 },
+                    new StudentDiscipline() {StudentId = 1, DisciplineId = 4 },
+                    new StudentDiscipline() {StudentId = 1, DisciplineId = 5 },
+                    new StudentDiscipline() {StudentId = 2, DisciplineId = 1 },
+                    new StudentDiscipline() {StudentId = 2, DisciplineId = 2 },
+                    new StudentDiscipline() {StudentId = 2, DisciplineId = 5 },
+                    new StudentDiscipline() {StudentId = 3, DisciplineId = 1 },
+                    new StudentDiscipline() {StudentId = 3, DisciplineId = 2 },
+                    new StudentDiscipline() {StudentId = 3, DisciplineId = 3 },
+                    new StudentDiscipline() {StudentId = 4, DisciplineId = 1 },
+                    new StudentDiscipline() {StudentId = 4, DisciplineId = 4 },
+                    new StudentDiscipline() {StudentId = 4, DisciplineId = 5 },
+                    new StudentDiscipline() {StudentId = 5, DisciplineId = 4 },
+                    new StudentDiscipline() {StudentId = 5, DisciplineId = 5 },
+                    new StudentDiscipline() {StudentId = 6, DisciplineId = 1 },
+                    new StudentDiscipline() {StudentId = 6, DisciplineId = 2 },
+                    new StudentDiscipline() {StudentId = 6, DisciplineId = 3 },
+                    new StudentDiscipline() {StudentId = 6, DisciplineId = 4 },
+                    new StudentDiscipline() {StudentId = 7, DisciplineId = 1 },
+                    new StudentDiscipline() {StudentId = 7, DisciplineId = 2 },
+                    new StudentDiscipline() {StudentId = 7, DisciplineId = 3 },
+                    new StudentDiscipline() {StudentId = 7, DisciplineId = 4 },
+                    new StudentDiscipline() {StudentId = 7, DisciplineId = 5 }
                 });
         }
 

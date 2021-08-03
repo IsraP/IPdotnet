@@ -10,23 +10,23 @@ namespace smartSchool.WebApi.Controllers
     [Route("api/[controller]")]
     public class TeacherController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly IRepository _repo;
 
-        public TeacherController(DataContext context)
+        public TeacherController(IRepository repo)
         {
-            _context = context;
+            _repo = repo;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_context.Teachers);
+            return Ok(_repo.getAllTeachers(true));
         }
 
         [HttpGet("byId/{id:int}")]
         public IActionResult GetById(int id)
         {
-            Teacher tResp = _context.Teachers.FirstOrDefault(t => t.Id == id);
+            Teacher tResp = _repo.getTeacherById(id, false);
 
             if (tResp == null)
                 return BadRequest("Teacher not found");
@@ -34,65 +34,70 @@ namespace smartSchool.WebApi.Controllers
             return Ok(tResp);
         }
 
-        [HttpGet("byName/{name}")]
-        public IActionResult GetByName(string name)
-        {
-            Teacher tResp = _context.Teachers.FirstOrDefault(t => t.Name.Contains(name));
+        // [HttpGet("byName/{name}")]
+        // public IActionResult GetByName(string name)
+        // {
+        //     Teacher tResp = _context.Teachers.FirstOrDefault(t => t.Name.Contains(name));
 
-            if (tResp == null)
-                return BadRequest("Teacher not found");
+        //     if (tResp == null)
+        //         return BadRequest("Teacher not found");
 
-            return Ok(tResp);
-        }
+        //     return Ok(tResp);
+        // }
 
         [HttpPost]
-        public IActionResult Post(Teacher t)
+        public IActionResult Post(Teacher teacher)
         {
-            _context.Add(t);
-            _context.SaveChanges();
+            _repo.Add(teacher);
+            if (_repo.SaveChanges())
+                return Ok(teacher);
 
-            return Ok(t);
+            return BadRequest("Teacher not found");
         }
 
         [HttpPut("{id:int}")]
         public IActionResult Put(Teacher t, int id)
         {
-            var teacherOld = _context.Students.AsNoTracking().FirstOrDefault(t => t.Id == id);
+            var teacherOld = _repo.getTeacherById(id, false);
 
             if (teacherOld == null)
                 return BadRequest("Teacher not found");
 
-            _context.Update(t);
-            _context.SaveChanges();
+            _repo.Update(t);
+            if (_repo.SaveChanges())
+                return Ok(t);
 
-            return Ok(t);
+            return BadRequest("Teacher not updated");
         }
 
         [HttpPatch("{id:int}")]
         public IActionResult Patch(int id, Teacher t)
         {
-            var teacherOld = _context.Students.AsNoTracking().FirstOrDefault(t => t.Id == id);
+            var teacherOld = _repo.getTeacherById(id, false);
 
             if (teacherOld == null)
                 return BadRequest("Teacher not found");
 
-            _context.Update(t);
-            _context.SaveChanges();
+            _repo.Update(t);
+            if (_repo.SaveChanges())
+                return Ok(t);
 
-            return Ok(t);
+            return BadRequest("Teacher not updated");
         }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var teacher = _context.Teachers.FirstOrDefault(t => t.Id == id);
+            var teacher = _repo.getTeacherById(id, false);
 
             if (teacher == null)
                 return BadRequest("Teacher not found");
 
-            _context.Remove(teacher);
-            _context.SaveChanges();
-            return Ok(teacher);
+            _repo.Remove(teacher);
+            if (_repo.SaveChanges())
+                return Ok(teacher);
+
+            return BadRequest("Teacher not deleted");
         }
     }
 }
