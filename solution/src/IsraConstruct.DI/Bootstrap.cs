@@ -9,9 +9,9 @@ namespace IsraConstruct.DI
 {
     public class Bootstrap{
         public static void Configure(IServiceCollection services, string connection){
-            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
-            services.AddTransient(typeof(CategoryStorage));
-            services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork));
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(CategoryStorage));
+            services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
 
             services.AddDbContext<ApplicationDbContext>(options => 
                 options.UseSqlServer(connection));
