@@ -2,26 +2,25 @@ using System;
 
 namespace smartSchool.WebApi.Models
 {
-    public class StudentDiscipline
+    public class StudentCourse
     {
 
-        public StudentDiscipline()
+        public StudentCourse()
         {
 
         }
 
-        public StudentDiscipline(int StudentId, int DisciplineId)
+        public StudentCourse(int StudentId, int courseId)
         {
             this.StudentId = StudentId;
-            this.DisciplineId = DisciplineId;
+            this.CourseId = courseId;
         }
 
         public DateTime IniDate { get; set; } = DateTime.Now;
         public DateTime? EndDate { get; set; } = null;
-        public int? Grade { get; set; } = null;
         public int StudentId { get; set; }
         public Student Student { get; set;}
-        public int DisciplineId { get; set; }
-        public Discipline Discipline { get; set; }
+        public int CourseId { get; set; }
+        public Course Course { get; set; }
     }
 }

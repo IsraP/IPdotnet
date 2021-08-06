@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>smartSchool.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:smartSchool.WebApi.v1.Controllers.StudentController">
+            
+             
+        </member>
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.#ctor(Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.Get">
+            <summary>
+            Retorna todos os alunos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.GetById(System.Int32)">
+            <summary>
+            Retorna um aluno por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.Post(smartSchool.WebApi.v1.DTOs.StudentRegisterDTO)">
+            <summary>
+            Adiciona um aluno
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.Put(System.Int32,smartSchool.WebApi.v1.DTOs.StudentRegisterDTO)">
+            <summary>
+            Atualiza um aluno por put
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.Patch(System.Int32,smartSchool.WebApi.v1.DTOs.StudentRegisterDTO)">
+            <summary>
+            Atualiza um aluno por patch
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.Delete(System.Int32)">
+            <summary>
+            Deleta um aluno
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

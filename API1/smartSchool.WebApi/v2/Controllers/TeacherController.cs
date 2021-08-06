@@ -4,10 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using smartSchool.WebApi.Models;
 
-namespace smartSchool.WebApi.Controllers
+namespace smartSchool.WebApi.v2.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class TeacherController : ControllerBase
     {
         private readonly IRepository _repo;

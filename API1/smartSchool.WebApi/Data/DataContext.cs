@@ -1,45 +1,66 @@
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using smartSchool.WebApi.Models;
 
 namespace Data
 {
-    public class DataContext : DbContext{
+    public class DataContext : DbContext
+    {
         public DbSet<Student> Students { get; set; }
-        public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<Discipline> Disciplines { get; set; }
         public DbSet<StudentDiscipline> StudentDisciplines { get; set; }
+        public DbSet<StudentCourse> StudentCourses { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Discipline> Disciplines { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder builder){
-            builder.Entity<StudentDiscipline>().HasKey(SD => new {SD.StudentId, SD.DisciplineId});
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<StudentDiscipline>().HasKey(SD => new { SD.StudentId, SD.DisciplineId });
 
             builder.Entity<Teacher>()
-            .HasData(new List<Teacher> {
-                new Teacher(1, "Claudin"),
-                new Teacher(2, "Robertin"),
-                new Teacher(3, "Clebin"),
-                new Teacher(4, "Rogerin"),
-                new Teacher(5, "Gaulesin"),
-            });
-
-                        builder.Entity<Discipline>()
-                .HasData(new List<Discipline>{
-                    new Discipline(1, "Maths", 1),
-                    new Discipline(2, "Physics", 2),
-                    new Discipline(3, "Portuguese", 3),
-                    new Discipline(4, "English", 4),
-                    new Discipline(5, "Programming", 5)
+            .HasData(new List<Teacher>(){
+                    new Teacher(1, 1, "Lauro", "Oliveira"),
+                    new Teacher(2, 2, "Roberto", "Soares"),
+                    new Teacher(3, 3, "Ronaldo", "Marconi"),
+                    new Teacher(4, 4, "Rodrigo", "Carvalho"),
+                    new Teacher(5, 5, "Alexandre", "Montanha"),
                 });
-            
+
+
+            builder.Entity<StudentCourse>()
+                .HasKey(AD => new {AD.StudentId, AD.CourseId});
+
+                builder.Entity<Course>()
+                .HasData(new List<Course>{
+                    new Course(1, "Tecnologia da Informação"),
+                    new Course(2, "Sistemas de Informação"),
+                    new Course(3, "Ciência da Computação")             
+                });
+
+            builder.Entity<Discipline>()
+                .HasData(new List<Discipline>{
+                    new Discipline(1, "Matemática", 1, 1),
+                    new Discipline(2, "Matemática", 1, 3),
+                    new Discipline(3, "Física", 2, 3),
+                    new Discipline(4, "Português", 3, 1),
+                    new Discipline(5, "Inglês", 4, 1),
+                    new Discipline(6, "Inglês", 4, 2),
+                    new Discipline(7, "Inglês", 4, 3),
+                    new Discipline(8, "Programação", 5, 1),
+                    new Discipline(9, "Programação", 5, 2),
+                    new Discipline(10, "Programação", 5, 3)
+                });
+
             builder.Entity<Student>()
                 .HasData(new List<Student>(){
-                    new Student(1, "Isra", "Peres", "33225555"),
-                    new Student(2, "Ra", "Lopes", "3354288"),
-                    new Student(3, "Samuel", "Influentes", "55668899"),
-                    new Student(4, "Coz", "Godz", "6565659"),
-                    new Student(5, "Luiza", "Ribeiro", "565685415"),
-                    new Student(6, "Leo", "Lol", "456454545"),
-                    new Student(7, "Rubens", "J", "9874512")
+                    new Student(1, 1, "Marta", "Kent", "33225555", DateTime.Parse("05/28/2005")),
+                    new Student(2, 2, "Paula", "Isabela", "3354288", DateTime.Parse("05/28/2005")),
+                    new Student(3, 3, "Laura", "Antonia", "55668899", DateTime.Parse("05/28/2005")),
+                    new Student(4, 4, "Luiza", "Maria", "6565659", DateTime.Parse("05/28/2005")),
+                    new Student(5, 5, "Lucas", "Machado", "565685415", DateTime.Parse("05/28/2005")),
+                    new Student(6, 6, "Pedro", "Alvares", "456454545", DateTime.Parse("05/28/2005")),
+                    new Student(7, 7, "Paulo", "José", "9874512", DateTime.Parse("05/28/2005"))
                 });
 
             builder.Entity<StudentDiscipline>()
