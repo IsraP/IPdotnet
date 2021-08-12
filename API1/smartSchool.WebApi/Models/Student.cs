@@ -22,12 +22,12 @@ namespace smartSchool.WebApi.Models
         }
 
         public int Id { get; set; }
+        public string Name { get; set; }
         public int Registration { get; set; }
+        public bool Active { get; set; } = true;
         public DateTime BornAt { get; set; }
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
         public DateTime? GraduationDate { get; set; } = null;
-        public bool Active { get; set; } = true;
-        public string Name { get; set; }
         public string SecondName { get; set; }
         public string Phone { get; set; }
         public IEnumerable<StudentDiscipline> Disciplines { get; set; }

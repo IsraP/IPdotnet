@@ -33,7 +33,8 @@ namespace smartSchool.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(
-                c => c.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                c => c.UseMySql(Configuration.GetConnectionString("MySQLConnection"),
+                new MySqlServerVersion(new Version(8, 0, 26))));
 
             services.AddControllers().AddNewtonsoftJson(
                 opt => opt.SerializerSettings.ReferenceLoopHandling =
@@ -99,6 +100,7 @@ namespace smartSchool.WebApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>
                 {
@@ -110,7 +112,6 @@ namespace smartSchool.WebApi
                     }
                 }
                 );
-            }
 
             // app.UseHttpsRedirection();
 

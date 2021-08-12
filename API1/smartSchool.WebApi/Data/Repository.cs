@@ -1,6 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using smartSchool.WebApi.Helpers;
 using smartSchool.WebApi.Models;
 
 namespace Data
@@ -49,6 +52,37 @@ namespace Data
             .OrderBy(stu => stu.Id);
 
             return query.ToArray();
+        }
+
+        public async Task<PageList<Student>> GetAllStudentsAsync(PageParams pageParams,
+            bool includeTeacher)
+        {
+            IQueryable<Student> query = _context.Students;
+
+            if(includeTeacher){
+                query = query.Include(stu => stu.Disciplines)
+                .ThenInclude(sd => sd.Discipline)
+                .ThenInclude(dis => dis.Teacher);
+            }
+
+            query = query.AsNoTracking()
+            .OrderBy(stu => stu.Id);
+
+            if(!string.IsNullOrEmpty(pageParams.Name))
+                query = query.Where(
+                    std => std.Name.ToUpper().Contains(pageParams.Name.ToUpper()) ||
+                    std.SecondName.ToUpper().Contains(pageParams.Name.ToUpper())
+                    );
+            
+            if(pageParams.Registration > 0)
+                query = query.Where(std => std.Registration == pageParams.Registration);
+            
+
+            query = query.Where(std => std.Active == pageParams.Active);
+
+            // return await query.ToListAsync();
+            return await PageList<Student>
+                        .CreateAsync(query, pageParams.PageNumber, pageParams.PageSize);
         }
 
         public Student getStudentById(int studentId, bool includeTeacher = false)

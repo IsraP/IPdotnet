@@ -15,7 +15,7 @@
             <param name="repo"></param>
             <param name="mapper"></param>
         </member>
-        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.Get">
+        <member name="M:smartSchool.WebApi.v1.Controllers.StudentController.Get(smartSchool.WebApi.Helpers.PageParams)">
             <summary>
             Retorna todos os alunos
             </summary>

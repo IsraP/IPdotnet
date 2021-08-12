@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using smartSchool.WebApi.Helpers;
 using smartSchool.WebApi.Models;
 
 namespace Data
@@ -8,6 +11,8 @@ namespace Data
         void Remove<T>(T entity) where T : class;
         bool SaveChanges();
 
+        Task<PageList<Student>> GetAllStudentsAsync(PageParams pageParams, 
+            bool includeTeacher);
         Student[] getAllStudents(bool includeTeacher);
         Student getStudentById(int studentId, bool includeTeacher);
         Student[] getStudentsByDisciplineId(int disciplineId, bool includeTeacher);
