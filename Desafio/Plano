@@ -1,0 +1,9 @@
+1. Criação da solução 
+	* 3 pastas
+		- Data, responsável por comunicação entre BD
+		- DOM, responsável pelos modelos e pa
+		- App, responsável por rodar a aplicação
+
+2. Data
+	* Conexão com mssql pra não dar problema
+	*
